@@ -61,9 +61,9 @@ WARNING!!! WARNING!!!
     //console.log(firstLetter);
     //console.log(name);
     if (firstLetter === "j") {
-      console.log(byeSpeaker.speak(name));
+      byeSpeaker.speak(name);
     } else {
-       console.log(helloSpeaker.speak(name));
+       helloSpeaker.speak(name);
     }
   }
 }) (window);
